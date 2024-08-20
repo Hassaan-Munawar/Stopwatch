@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:#acbaca ;
+}
+.clock{
+    position: relative;
+    width: 400px;
+    height: 400px;
+   text-align: center;
+   background-color: #C9D5E0;
+    border-radius: 50%;
+    box-shadow: 30px 30px 30px -10px rgba(0, 0, 0, 0.15),
+    inset 15px 15px 10px rgba(255 , 255 , 255 , 0.75) ,
+    -15px -15px 35px  rgba(255 , 255 , 255 , 0),
+    inset -1px -1px 10px rgba(0, 0, 0, 0.2)
+}
+
+.time-display {
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.time-display span {
+    padding: 0 10px;
+}
+
+.btn {
+    font-size: 16px;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background 0.3s ease;
+    width: 80px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #b02a37;
+    border-color: #b02a37;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #218838;
+}
+
+@media (max-width: 576px) {
+    .clock{
+        width: 340px;
+        height: 340px;
+    }
+
+    .btn{
+        width: 70px;
+    }
+    .time-display{
+        font-size: 50px;
+    }
+    .btn {
+        font-size: 14px;
+        margin: 5px;
+        padding: 8px 16px;
+    }
+}
