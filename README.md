@@ -1,6 +1,6 @@
-🚀 Excited to Share My Latest Project: A 3D Stopwatch! ⏱️
+🚀 Excited to Share My Project: A 3D Stopwatch! ⏱️
 
-I'm thrilled to present my latest web development project: a fully functional 3D Stopwatch! This project has been an incredible journey, from concept to execution .
+I'm thrilled to present my web development project: a fully functional 3D Stopwatch! This project has been an incredible journey, from concept to execution .
 
 🌟 Key Features:
 
@@ -27,9 +27,3 @@ Font Awesome: Used for the clean and intuitive icons on the control buttons.
 How to create realistic 3D effects using CSS, including shadows and gradients.
 The importance of responsive design in modern web development.
 Enhancing user experience through intuitive design and smooth animations.
-
-🌐 Try It Out!
-
-Check out the project.
-
-🔗 Hosted Link : https://lnkd.in/ehnN2eUA
